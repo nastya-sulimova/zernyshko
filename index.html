@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header class="center header">
+        <img class="header__logo" src="images/logo.svg" alt="Логотип Зернышко">
+        <menu class="menu">
+            <a href="#about" class="menu__text">О нас</a>
+            <a href="#catalog" class="menu__text">Меню</a>
+            <a href="#reviews" class="menu__text">Отзывы</a>
+            <a href="#contacts" class="menu__text">Контакты</a>
+        </menu>
+        <a href="#contacts" class="button__header button__header_hover">Связаться</a>
+    </header>
+
+    <section class="main center center_padding">
+        <div class="description">
+            <h1 class="description__heading">Добро пожаловать в «Зернышко»</h1>
+            <h3 class="description__subtitle">Ароматный кофе и уютная атмосфера каждый день</h3>
+            <div class="description__text">
+                <p class="description__paragraph">Мы готовим кофе с душой и верим, что каждая чашка — это маленькое наслаждение, созданное для вас.</p>
+                <p class="description__paragraph">Мы предлагаем свежие зерна, уникальные авторские рецепты и заботу о природе. Наши бариста рады подарить вам вкус и уют, из-за которых захочется возвращаться снова и снова.</p>
+            </div>
+            <div class="description__button">
+                <a href="#catalog" class="description__link description__link_hover">Посмотреть меню</a>
+            </div>
+        </div>
+
+        <div class="pictures">
+            <img class="table" src="images/table.png" alt="стол с десертами и кофе">
+            <img class="cup-of-coffee cup-of-coffee_hover" src="images/cup_of_coffee.png" alt="чашка кофе">
+            <img class="coffee-grains" src="images/coffee_grains.png" alt="зерна кофе">
+            <img class="biscuit biscuit_hover" src="images/biscuit.png" alt="печенье">
+            <img class="cinnabon cinnabon_hover" src="images/cinnabon.png" alt="синнабон">
+        </div>
+    </section>
+
+    <section id="about" class="about center">
+        <h2 class="about__heading">О нас</h2>
+        <div class="articles">
+            <article class="paragraph">
+                <img class="paragraph__img paragraph__img_hover" src="images/history.png" alt="История - первое фото кофейни Зернышко">
+                <div class="paragraph__text">
+                    <h4 class="paragraph__heading">История</h4>
+                    <div class="paragraph__paragraph">
+                        <p class="paragraph__description">«Зернышко» — кофейня, которая родилась из любви к хорошему кофе и желания создать место уюта для каждого.</p>
+                        <p class="paragraph__description">Открытая в 2020 году, кофейня быстро стала любимой как для ценителей кофе, так и для тех, кто просто ищет спокойное место для отдыха.</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="paragraph">
+                <img class="paragraph__img paragraph__img_hover" src="images/philosophy.png" alt="бариста готовит кофе">
+                <div class="paragraph__text">
+                    <h4 class="paragraph__heading">Философия</h4>
+                    <div class="paragraph__paragraph">
+                        <p class="paragraph__description">Мы верим, что каждая чашка кофе — это особый момент.</p>
+                        <p class="paragraph__description">Стремимся создать теплую дружелюбную атмосферу, <br class="break">где каждый гость чувствует себя как дома.</p>
+                        <p class="paragraph__description">Наши бариста с заботой подходят к каждому заказу, создавая напитки с любовью <br class="break">и вниманием к деталям.</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="paragraph">
+                <img class="paragraph__img paragraph__img_hover" src="images/fresh_grain.png" alt="кофейные зерна в деревянной чаше">
+                <div class="paragraph__text">
+                    <h4 class="paragraph__heading">Свежее зерно</h4>
+                    <div class="paragraph__paragraph">
+                        <p class="paragraph__description">Мы используем только свежие зерна и экспериментируем <br class="break"> с оригинальными рецептами, чтобы радовать гостей уникальными вкусами.</p>
+                        <p class="paragraph__description">Наша команда сотрудничает <br class="break"> с локальными обжарщиками, поддерживая высокое качество <br class="break"> и разнообразие.</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="paragraph">
+                <img class="paragraph__img paragraph__img_hover" src="images/care_of_nature.png" alt="стаканчик кофе на деревянных качелях на природе">
+                <div class="paragraph__text">
+                    <h4 class="paragraph__heading">Забота о природе</h4>
+                    <div class="paragraph__paragraph">
+                        <p class="paragraph__description">Мы стараемся уменьшить экологический след, используя биоразлагаемые стаканчики <br class="break">и предлагая скидки для тех, <br class="break">кто приходит со своей чашкой.</p>
+                        <p class="paragraph__description">Мы заботимся не только <br class="break">о клиентах, но и о планете.</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="catalog" class="catalog center">
+        <div class="catalog__headingChoice">
+            <h2 class="catalog__heading">Меню</h2>
+            <div class="catalog__choice">
+                <button class="catalog__button catalog__button.active catalog__button_coffee-hover">Кофе</button>
+                <button class="catalog__button catalog__button.active catalog__button_desserts-hover">Десерты</button>
+                <button class="catalog__button catalog__button.active catalog__button_snacks-hover">Закуски</button>
+            </div>
+        </div>
+
+        <div class="catalog__box">
+            <article class="product-card product-card_coffee">
+                <img class="product-card__img product-card__img_hover" src="images/cappuccino_almond.jpeg" alt="Капучино на миндальном молоке с кокосовым сиропом">
+                <div class="product-card__text">
+                    <p class="product-card__price">240₽</p>
+                    <p class="product-card__good">Капучино на миндальном молоке с кокосовым сиропом</p>
+                    <p class="product-card__quantity">350 мл</p>
+                </div>
+            </article>
+
+            <article class="product-card product-card_coffee">
+                <img class="product-card__img product-card__img_hover" src="images/latte_cocount.jpeg" alt="Латте на кокосовом молоке с кленовым сиропом ">
+                <div class="product-card__text">
+                    <p class="product-card__price">270₽</p>
+                    <p class="product-card__good">Латте на кокосовом молоке <br>с кленовым сиропом </p>
+                    <p class="product-card__quantity">350 мл</p>
+                </div>
+            </article>
+
+            <article class="product-card product-card_coffee">
+                <img class="product-card__img product-card__img_hover" src="images/raf.jpeg" alt="Раф с карамельным сиропом и шоколадом">
+                <div class="product-card__text">
+                    <p class="product-card__price">360₽</p>
+                    <p class="product-card__good">Раф с карамельным сиропом <br>и шоколадом</p>
+                    <p class="product-card__quantity">250 мл</p>
+                </div>
+            </article>
+
+            <article class="product-card product-card_coffee">
+                <img class="product-card__img product-card__img_hover" src="images/americano.jpeg" alt="Классический американо с зарядом бодрости">
+                <div class="product-card__text">
+                    <p class="product-card__price">160₽</p>
+                    <p class="product-card__good">Классический американо <br>с зарядом бодрости</p>
+                    <p class="product-card__quantity">300 мл</p>
+                </div>
+            </article>
+
+            <article class="product-card product-card_coffee">
+                <img class="product-card__img product-card__img_hover" src="images/flat_white.jpeg" alt="Флет уайт с насыщенным вкусом эфиопского эспрессо">
+                <div class="product-card__text">
+                    <p class="product-card__price">160₽</p>
+                    <p class="product-card__good">Флет уайт с насыщенным вкусом эфиопского эспрессо</p>
+                    <p class="product-card__quantity">300 мл</p>
+                </div>
+            </article>
+
+            <article class="product-card product-card_coffee">
+                <img class="product-card__img product-card__img_hover" src="images/latte_oatmeal.jpeg" alt="Латте на овсяном молоке с добавлением корицы">
+                <div class="product-card__text">
+                    <p class="product-card__price">270₽</p>
+                    <p class="product-card__good">Латте на овсяном молоке <br>с добавлением корицы</p>
+                    <p class="product-card__quantity">300 мл</p>
+                </div>
+            </article>
+
+            <article class="product-card product-card_coffee">
+                <img class="product-card__img product-card__img_hover" src="images/double_espresso.jpeg" alt="Двойной эспрессо с высоким зарядом энергии">
+                <div class="product-card__text">
+                    <p class="product-card__price">180₽</p>
+                    <p class="product-card__good">Двойной эспрессо с высоким зарядом энергии</p>
+                    <p class="product-card__quantity">300 мл</p>
+                </div>
+            </article>
+
+            <article class="product-card product-card_coffee">
+                <img class="product-card__img product-card__img_hover" src="images/cappuccino_soy.jpeg" alt="Капучино на соевом молоке с ореховым сиропом">
+                <div class="product-card__text">
+                    <p class="product-card__price">240₽</p>
+                    <p class="product-card__good">Капучино на соевом молоке <br>с ореховым сиропом</p>
+                    <p class="product-card__quantity">300 мл</p>
+                </div>
+            </article>
+
+
+            <article class="product-card product-card_snacks">
+                <img class="product-card__img product-card__img_hover" src="images/almond.jpeg" alt="Миндаль — идеальная закуска для перекуса">
+                <div class="product-card__text">
+                    <p class="product-card__price">240₽</p>
+                    <p class="product-card__good">Миндаль — идеальная закуска для перекуса</p>
+                    <p class="product-card__quantity">200 гр</p>
+                </div>
+            </article>
+
+            <article class="product-card product-card_snacks">
+                <img class="product-card__img product-card__img_hover" src="images/classic_biscuit.jpeg" alt="Классическое печенье с кусочками шоколада">
+                <div class="product-card__text">
+                    <p class="product-card__price">360₽</p>
+                    <p class="product-card__good">Классическое печенье <br>с кусочками шоколада</p>
+                    <p class="product-card__quantity">250 гр</p>
+                </div>
+            </article>
+
+            <article class="product-card product-card_snacks">
+                <img class="product-card__img product-card__img_hover" src="images/bagels.jpeg" alt="Баранки с легкой солью — отличное дополнение к кофе">
+                <div class="product-card__text">
+                    <p class="product-card__price">270₽</p>
+                    <p class="product-card__good">Баранки с легкой солью — <br>отличное дополнение к кофе</p>
+                    <p class="product-card__quantity">350 гр</p>
+                </div>
+            </article>
+
+            <article class="product-card product-card_snacks">
+                <img class="product-card__img product-card__img_hover" src="images/poppy_seed_bun.jpeg" alt="Булочка с маком, покрытая нежной сахарной глазурью">
+                <div class="product-card__text">
+                    <p class="product-card__price">160₽</p>
+                    <p class="product-card__good">Булочка с маком, покрытая нежной сахарной глазурью</p>
+                    <p class="product-card__quantity">150 гр</p>
+                </div>
+            </article>
+
+            <article class="product-card product-card_snacks">
+                <img class="product-card__img product-card__img_hover" src="images/cashew.jpeg" alt="Свежий, хрустящий кешью — полезный перекус">
+                <div class="product-card__text">
+                    <p class="product-card__price">270₽</p>
+                    <p class="product-card__good">Свежий, хрустящий кешью — <br>полезный перекус</p>
+                    <p class="product-card__quantity">300 гр</p>
+                </div>
+            </article>
+
+            <article class="product-card product-card_snacks">
+                <img class="product-card__img product-card__img_hover" src="images/chocolate_biscuit.jpeg" alt="Мягкое печенье с начинкой из шоколада ">
+                <div class="product-card__text">
+                    <p class="product-card__price">160₽</p>
+                    <p class="product-card__good">Мягкое печенье с начинкой <br>из шоколада </p>
+                    <p class="product-card__quantity">150 гр</p>
+                </div>
+            </article>
+
+            <article class="product-card product-card_snacks">
+                <img class="product-card__img product-card__img_hover" src="images/pancakes.jpeg" alt="Нежные панкейки с сладким медом и маслом">
+                <div class="product-card__text">
+                    <p class="product-card__price">180₽</p>
+                    <p class="product-card__good">Нежные панкейки с сладким медом и маслом</p>
+                    <p class="product-card__quantity">300 гр</p>
+                </div>
+            </article>
+
+            <article class="product-card product-card_snacks">
+                <img class="product-card__img product-card__img_hover" src="images/triangle.jpeg" alt="Сытные треугольники с сырной начинкой">
+                <div class="product-card__text">
+                    <p class="product-card__price">240₽</p>
+                    <p class="product-card__good">Сытные треугольники <br>с сырной начинкой</p>
+                    <p class="product-card__quantity">250 гр</p>
+                </div>
+            </article>
+
+
+            <article class="product-card product-card_desserts">
+                <img class="product-card__img product-card__img_hover" src="images/cinnabon_cinnamon.jpeg" alt="Синабон с ароматной корицей и глазурью">
+                <div class="product-card__text">
+                    <p class="product-card__price">240₽</p>
+                    <p class="product-card__good">Синабон с ароматной корицей и глазурью</p>
+                    <p class="product-card__quantity">250 гр</p>
+                </div>
+            </article>
+
+            <article class="product-card product-card_desserts">
+                <img class="product-card__img product-card__img_hover" src="images/danish_puff_pastry.jpeg" alt="Воздушная датская слойка с нежным кремом">
+                <div class="product-card__text">
+                    <p class="product-card__price">270₽</p>
+                    <p class="product-card__good">Воздушная датская слойка <br>с нежным кремом</p>
+                    <p class="product-card__quantity">250 гр</p>
+                </div>
+            </article>
+
+            <article class="product-card product-card_desserts">
+                <img class="product-card__img product-card__img_hover" src="images/wildberries.jpeg" alt="Нежный крем-брюле с ягодами и карамельной корочкой ">
+                <div class="product-card__text">
+                    <p class="product-card__price">360₽</p>
+                    <p class="product-card__good">Нежный крем-брюле с ягодами <br>и карамельной корочкой </p>
+                    <p class="product-card__quantity">150 гр</p>
+                </div>
+            </article>
+
+            <article class="product-card product-card_desserts">
+                <img class="product-card__img product-card__img_hover" src="images/apple-lemon.jpeg" alt="Улитка с яблочно-лимонным джемом и изюмом">
+                <div class="product-card__text">
+                    <p class="product-card__price">270₽</p>
+                    <p class="product-card__good">Улитка с яблочно-лимонным <br>джемом и изюмом</p>
+                    <p class="product-card__quantity">250 гр</p>
+                </div>
+            </article>
+
+            <article class="product-card product-card_desserts">
+                <img class="product-card__img product-card__img_hover" src="images/chocolate-coffee.jpeg" alt="Шоколадно-кофейный торт с глубоким вкусом какао">
+                <div class="product-card__text">
+                    <p class="product-card__price">160₽</p>
+                    <p class="product-card__good">Шоколадно-кофейный торт <br>с глубоким вкусом какао</p>
+                    <p class="product-card__quantity">170 гр</p>
+                </div>
+            </article>
+
+            <article class="product-card product-card_desserts">
+                <img class="product-card__img product-card__img_hover" src="images/chocolate-raspberry.jpeg" alt="Шоколадная тарталетка с кремом и  малиной">
+                <div class="product-card__text">
+                    <p class="product-card__price">180₽</p>
+                    <p class="product-card__good">Шоколадная тарталетка <br>с кремом и  малиной</p>
+                    <p class="product-card__quantity">150 гр</p>
+                </div>
+            </article>
+
+            <article class="product-card product-card_desserts">
+                <img class="product-card__img product-card__img_hover" src="images/honey-cake.jpeg" alt="Классический медовик со сливочным кремом">
+                <div class="product-card__text">
+                    <p class="product-card__price">240₽</p>
+                    <p class="product-card__good">Классический медовик <br>со сливочным кремом</p>
+                    <p class="product-card__quantity">250 гр</p>
+                </div>
+            </article>
+
+            <article class="product-card product-card_desserts">
+                <img class="product-card__img product-card__img_hover" src="images/cinnamon-chocolate.jpeg" alt="Торт с нежным кремом, корицей и шоколадом">
+                <div class="product-card__text">
+                    <p class="product-card__price">160₽</p>
+                    <p class="product-card__good">Торт с нежным кремом, корицей и шоколадом</p>
+                    <p class="product-card__quantity">300 гр</p>
+                </div>
+            </article>
+
+        </div>
+        
+        
+    </section>
+
+    <section id="reviews" class="reviews center">
+        <h2 class="reviews__heading">Отзывы</h2>
+        <div class="reviews__box">
+            <article class="user-review">
+                <div class="user-review__header">
+                    <img class="user-review__photo" src="images/irinaUser.png" alt="фото пользователя и его отзыв">
+                    <div class="name-stars">
+                        <p class="name-stars__name">Ирина</p>
+                        <img class="name-stars__stars" src="images/userStars.png" alt="оценка пользователя в звездах">
+                    </div>
+                </div>
+                <p class="user-review__text">Очень уютное место! Всегда чувствуешь себя желанным гостем, а ваши бариста не только готовят отличный и вкусный кофе, но и могут подсказать что-то новенькое попробовать. </p>
+            </article>
+
+            <article class="user-review">
+                <div class="user-review__header">
+                    <img class="user-review__photo" src="images/igorUser.png" alt="фото пользователя и его отзыв">
+                    <div class="name-stars">
+                        <p class="name-stars__name">Игорь</p>
+                        <img class="name-stars__stars" src="images/userStars.png" alt="оценка пользователя в звездах">
+                    </div>
+                </div>
+                <p class="user-review__text">Я настоящий кофеман, и «Зернышко» удивило меня качеством! Здесь всегда свежие зерна и интересные рецепты — каждый раз нахожу новый вкус для себя. Рекомендую всем своим друзьям.</p>
+            </article>
+
+            <article class="user-review">
+                <div class="user-review__header">
+                    <img class="user-review__photo" src="images/alexandrUser.png" alt="фото пользователя и его отзыв">
+                    <div class="name-stars">
+                        <p class="name-stars__name">Александр</p>
+                        <img class="name-stars__stars" src="images/userStars.png" alt="оценка пользователя в звездах">
+                    </div>
+                </div>
+                <p class="user-review__text">Приятно видеть, что кофейня заботится о природе. Экологичная упаковка, скидка за свою чашку — такие мелочи, а настро-ение поднимают! Приятно, что здесь думают  о планете.</p>
+            </article>
+
+            <article class="user-review">
+                <div class="user-review__header">
+                    <img class="user-review__photo" src="images/elzaUser.png" alt="фото пользователя и его отзыв">
+                    <div class="name-stars">
+                        <p class="name-stars__name">Эльза</p>
+                        <img class="name-stars__stars" src="images/userStars.png" alt="оценка пользователя в звездах">
+                    </div>
+                </div>
+                <p class="user-review__text">В «Зернышке» особенная атмосфера: уютно, стильно и спокойно. Идеальное место, чтобы сбежать от городской суеты, почитать книгу или просто расслабиться за чашкой кофе.</p>
+            </article>
+
+            <article class="user-review">
+                <div class="user-review__header">
+                    <img class="user-review__photo" src="images/andriiUser.png" alt="фото пользователя и его отзыв">
+                    <div class="name-stars">
+                        <p class="name-stars__name">Андрей</p>
+                        <img class="name-stars__stars" src="images/userStars.png" alt="оценка пользователя в звездах">
+                    </div>
+                </div>
+                <p class="user-review__text">Бариста всегда приветливые и открытые к общению. Люблю, когда заходишь, и тебя встречают с улыбкой и вниманием к деталям. Кажется, что здесь всех знают по имени и каждому рады.</p>
+            </article>
+
+            <article class="user-review">
+                <div class="user-review__header">
+                    <img class="user-review__photo" src="images/christinaUser.png" alt="фото пользователя и его отзыв">
+                    <div class="name-stars">
+                        <p class="name-stars__name">Кристина</p>
+                        <img class="name-stars__stars" src="images/userStars.png" alt="оценка пользователя в звездах">
+                    </div>
+                </div>
+                <p class="user-review__text">Каждая чашка кофе в «Зернышке» словно маленький шедевр. Ощущается внимание к мелочам — от аромата до оформления напитка. Это то место, куда хочется возвращаться снова и снова.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="contacts" class="contacts center">
+        <h2 class="contacts__heading">Как нас найти</h2>
+        <div class="coordinates">
+            <div class="coordinates__contacts-booking">
+                <div class="coordinates__contacts">
+                    <h4 class="coordinates__title">Контакты</h4>
+                    <div class="coordinates__links">
+                        <div class="icon-text">
+                            <svg class="coordinates__svg coordinates__svg_hover" width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <desc>
+                                        Created with Pixso.
+                                </desc>
+                                <defs/>
+                                <rect id="vuesax/bold/call" rx="0.000000" width="19.000000" height="19.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+                                <path id="Vector" d="M9.2 12.45L7.66 14C7.34 14.32 6.82 14.32 6.49 14C6.4 13.91 6.3 13.83 6.21 13.74C5.35 12.87 4.58 11.96 3.89 11.01C3.2 10.06 2.65 9.11 2.25 8.17C1.86 7.22 1.66 6.31 1.66 5.45C1.66 4.88 1.76 4.34 1.96 3.84C2.16 3.33 2.48 2.86 2.92 2.45C3.45 1.92 4.04 1.66 4.65 1.66C4.89 1.66 5.12 1.71 5.33 1.81C5.55 1.91 5.74 2.06 5.89 2.28L7.82 5C7.97 5.21 8.08 5.4 8.15 5.59C8.23 5.76 8.27 5.94 8.27 6.1C8.27 6.3 8.21 6.5 8.1 6.69C7.99 6.88 7.83 7.08 7.63 7.28L7 7.94C6.9 8.03 6.86 8.14 6.86 8.27C6.86 8.34 6.87 8.4 6.89 8.46C6.91 8.53 6.94 8.58 6.95 8.63C7.1 8.9 7.36 9.26 7.73 9.7C8.1 10.13 8.5 10.57 8.94 11.01C9.02 11.1 9.11 11.18 9.2 11.26C9.53 11.59 9.54 12.12 9.2 12.45Z" fill="#45403D" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                <path id="Vector" d="M18.3 15.27C18.3 15.5 18.26 15.75 18.18 15.98C18.15 16.04 18.13 16.11 18.1 16.18C17.95 16.48 17.77 16.76 17.53 17.03C17.12 17.48 16.67 17.8 16.16 18.01C16.15 18.01 16.15 18.02 16.14 18.02C15.65 18.22 15.11 18.33 14.54 18.33C13.69 18.33 12.78 18.13 11.82 17.72C10.86 17.31 9.9 16.76 8.95 16.07C8.63 15.83 8.3 15.59 8 15.33L10.72 12.6C10.95 12.78 11.16 12.91 11.34 13C11.38 13.02 11.43 13.05 11.49 13.07C11.55 13.09 11.62 13.1 11.7 13.1C11.84 13.1 11.95 13.05 12.04 12.96L12.67 12.34C12.88 12.13 13.08 11.97 13.27 11.87C13.46 11.75 13.65 11.7 13.86 11.7C14.02 11.7 14.19 11.73 14.37 11.8C14.55 11.88 14.75 11.99 14.95 12.13L17.71 14.09C17.93 14.24 18.08 14.41 18.17 14.62C18.25 14.83 18.3 15.04 18.3 15.27Z" fill="#45403D" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                <g opacity="0.000000"/>
+                            </svg>
+                            <a class="coordinates__links coordinates__links_hover" href="tel:+79999999999">+7 (999) 999 99-99</a>
+                        </div>
+
+                        <div class="icon-text">
+                            <svg class="coordinates__svg coordinates__svg_hover" width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <desc>
+                                        Created with Pixso.
+                                </desc>
+                                <defs/>
+                                <rect id="vuesax/bold/sms" rx="0.000000" width="19.000000" height="19.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+                                <g opacity="0.000000"/>
+                                <path id="Vector" d="M14.16 2.91L5.83 2.91C3.33 2.91 1.66 4.16 1.66 7.08L1.66 12.91C1.66 15.83 3.33 17.08 5.83 17.08L14.16 17.08C16.66 17.08 18.33 15.83 18.33 12.91L18.33 7.08C18.33 4.16 16.66 2.91 14.16 2.91ZM14.55 7.99L11.95 10.07C11.4 10.51 10.7 10.73 10 10.73C9.3 10.73 8.59 10.51 8.05 10.07L5.44 7.99C5.17 7.77 5.13 7.37 5.34 7.1C5.55 6.84 5.95 6.79 6.21 7L8.82 9.09C9.45 9.6 10.53 9.6 11.16 9.09L13.77 7C14.04 6.79 14.44 6.83 14.65 7.1C14.86 7.37 14.82 7.77 14.55 7.99Z" fill="#45403D" fill-opacity="1.000000" fill-rule="nonzero"/>
+                            </svg>
+                            <a class="coordinates__links coordinates__links_hover" href="mailto:zernyshko@mail.ru">zernyshko@mail.ru</a>
+                        </div>
+
+                        <div class="icon-text">
+                            <svg class="coordinates__svg coordinates__svg_hover" width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <desc>
+                                        Created with Pixso.
+                                </desc>
+                                <defs/>
+                                <rect id="vuesax/bold/location" rx="0.000000" width="19.000000" height="19.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+                                <path id="Vector" d="M17.18 7.04C16.3 3.19 12.95 1.45 10 1.45C10 1.45 10 1.45 9.99 1.45C7.05 1.45 3.68 3.18 2.8 7.03C1.83 11.33 4.46 14.97 6.85 17.26C7.73 18.11 8.86 18.54 10 18.54C11.13 18.54 12.26 18.11 13.14 17.26C15.52 14.97 18.15 11.34 17.18 7.04ZM10 11.21C8.55 11.21 7.37 10.04 7.37 8.59C7.37 7.14 8.55 5.96 10 5.96C11.45 5.96 12.62 7.14 12.62 8.59C12.62 10.04 11.45 11.21 10 11.21Z" fill="#45403D" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                <g opacity="0.000000"/>
+                                <g opacity="0.000000"/>
+                            </svg>
+                            <p class="icon-text__address icon-text__address_hover">СПб, Коржекова, 5</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="coordinates__booking">
+                    <form class="coordinates__form" action="submit">
+                        <h4 class="coordinates__title">Бронирование</h4>
+                        <div class="inputs">
+                            <input class="inputs__text inputs__text_placeholder" placeholder="Ваше имя" type="text">
+                            <input class="inputs__text inputs__text_placeholder" placeholder="Ваш номер телефона" type="number">
+                            <input class="inputs__text inputs__text_placeholder" placeholder="Комментарий" type="">
+                        </div>
+                        <button class="coordinates__button coordinates__button_hover">Забронировать</button>
+                    </form>
+                </div>
+            </div>
+            <img class="coordinates__map" src="images/map.jpeg" alt="метка кофейни Зернышко на карте">
+
+
+
+        </div>
+
+
+    </section>
+
+    <footer class="footer center">
+        <div class="footer-logo">
+            <img class="footer-logo__logo" src="images/logo.svg" alt="Логотип Зернышко">
+            <p class="footer-logo__rights">© 2025 Все права защищены</p>
+        </div>
+        
+        <div class="footer__menu">
+            <menu class="menu menu__gap">
+                <a href="#about" class="menu__text menu__text_font">О нас</a>
+                <a href="#catalog" class="menu__text menu__text_font">Меню</a>
+                <a href="#reviews" class="menu__text menu__text_font">Отзывы</a>
+                <a href="#contacts" class="menu__text menu__text_font">Контакты</a>
+            </menu>
+            <div class="footer__icons">
+                <a href="https://vk.com/zernyshko"><svg width="14.000000" height="20.000000" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <desc>
+                            Created with Pixso.
+                    </desc>
+                    <defs>
+                        <clipPath id="clip100_1042">
+                            <rect id="icon-vk-seeklogo 1" rx="0.000000" width="13.000000" height="13.000000" transform="translate(0.500000 3.500000)" fill="white" fill-opacity="0"/>
+                        </clipPath>
+                    </defs>
+                    <rect id="icon-vk-seeklogo 1" rx="0.000000" width="13.000000" height="13.000000" transform="translate(0.500000 3.500000)" fill="#FFFFFF" fill-opacity="0"/>
+                    <g clip-path="url(#clip100_1042)">
+                        <mask id="mask100_1044" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="3.000000" width="14.000000" height="14.000000">
+                            <path id="Vector" d="M0 3L14 3L14 17L0 17L0 3Z" fill="#000000" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        </mask>
+                        <g mask="url(#mask100_1044)">
+                            <path id="Vector" d="M6.71 17L7.29 17C10.46 17 12.04 17 13.02 16.01C14 15.03 14 13.45 14 10.29L14 9.7C14 6.54 14 4.96 13.02 3.98C12.05 3 10.46 3 7.29 3L6.71 3C3.54 3 1.96 3 0.98 3.98C0 4.96 0 6.54 0 9.7L0 10.29C0 13.45 0 15.03 0.98 16.01C1.96 17 3.54 17 6.71 17Z" fill="#45403D" fill-opacity="1.000000" fill-rule="nonzero"/>
+                            <path id="Vector" d="M7.51 13.09C4.35 13.09 2.44 10.9 2.36 7.26L3.96 7.26C4.01 9.93 5.23 11.07 6.16 11.3L6.16 7.26L7.69 7.26L7.69 9.57C8.59 9.47 9.53 8.42 9.85 7.26L11.35 7.26C11.11 8.68 10.09 9.73 9.36 10.17C10.09 10.52 11.26 11.43 11.7 13.09L10.05 13.09C9.7 11.98 8.84 11.12 7.69 11.01L7.69 13.09L7.51 13.09Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+                        </g>
+                    </g>
+                </svg></a>
+                <a href="https://www.instagram.com/@zernyshko"><svg width="14.000000" height="20.085938" viewBox="0 0 14 20.0859" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <desc>
+                            Created with Pixso.
+                    </desc>
+                    <defs/>
+                    <path id="Vector" d="M7 3C4.13 3 3.29 3 3.13 3.01C2.54 3.06 2.17 3.16 1.78 3.36C1.47 3.52 1.23 3.7 0.99 3.95C0.55 4.42 0.29 4.99 0.19 5.67C0.14 6 0.13 6.06 0.13 7.75C0.13 8.31 0.13 9.05 0.13 10.04C0.13 12.97 0.13 13.83 0.15 14C0.19 14.59 0.28 14.96 0.47 15.36C0.84 16.13 1.53 16.72 2.35 16.93C2.63 17.01 2.94 17.05 3.34 17.07C3.51 17.08 5.25 17.08 6.98 17.08C8.72 17.08 10.45 17.08 10.62 17.07C11.08 17.05 11.35 17.01 11.65 16.93C12.47 16.71 13.15 16.14 13.52 15.36C13.71 14.96 13.81 14.58 13.85 14.02C13.86 13.9 13.86 11.97 13.86 10.03C13.86 8.1 13.86 6.17 13.85 6.05C13.81 5.48 13.71 5.1 13.52 4.7C13.36 4.37 13.18 4.12 12.93 3.87C12.48 3.43 11.92 3.16 11.26 3.06C10.94 3.01 10.87 3 9.23 3L7 3Z" fill="#45403D" fill-opacity="1.000000" fill-rule="nonzero"/>
+                    <path id="Vector" d="M7 4.8C5.61 4.8 5.44 4.81 4.89 4.84C4.35 4.86 3.98 4.95 3.65 5.08C3.32 5.21 3.03 5.39 2.75 5.68C2.46 5.97 2.29 6.26 2.16 6.61C2.03 6.94 1.95 7.32 1.92 7.88C1.9 8.44 1.89 8.62 1.89 10.04C1.89 11.46 1.9 11.64 1.92 12.19C1.95 12.75 2.03 13.13 2.16 13.46C2.29 13.81 2.46 14.1 2.75 14.39C3.03 14.68 3.32 14.86 3.65 15C3.98 15.12 4.35 15.21 4.89 15.24C5.44 15.26 5.61 15.27 7 15.27C8.38 15.27 8.56 15.26 9.1 15.24C9.65 15.21 10.02 15.12 10.34 15C10.68 14.86 10.96 14.68 11.25 14.39C11.53 14.1 11.7 13.81 11.84 13.46C11.96 13.13 12.05 12.75 12.07 12.19C12.1 11.64 12.1 11.46 12.1 10.04C12.1 8.62 12.1 8.44 12.07 7.88C12.05 7.32 11.96 6.94 11.84 6.61C11.7 6.26 11.53 5.97 11.25 5.68C10.96 5.39 10.68 5.21 10.34 5.08C10.02 4.95 9.65 4.86 9.1 4.84C8.56 4.81 8.38 4.8 7 4.8L7 4.8ZM6.54 5.75C6.68 5.75 6.83 5.75 7 5.75C8.36 5.75 8.52 5.75 9.06 5.78C9.56 5.8 9.83 5.89 10.01 5.96C10.25 6.05 10.42 6.17 10.6 6.35C10.77 6.53 10.89 6.71 10.98 6.95C11.05 7.13 11.13 7.41 11.15 7.92C11.18 8.47 11.18 8.64 11.18 10.04C11.18 11.43 11.18 11.6 11.15 12.15C11.13 12.66 11.05 12.94 10.98 13.12C10.89 13.37 10.77 13.54 10.6 13.72C10.42 13.91 10.25 14.02 10.01 14.11C9.83 14.19 9.56 14.27 9.06 14.29C8.52 14.32 8.36 14.32 7 14.32C5.63 14.32 5.47 14.32 4.93 14.29C4.44 14.27 4.17 14.19 3.99 14.11C3.75 14.02 3.58 13.91 3.4 13.72C3.22 13.54 3.11 13.37 3.02 13.12C2.95 12.94 2.86 12.66 2.84 12.15C2.82 11.6 2.81 11.43 2.81 10.03C2.81 8.64 2.82 8.47 2.84 7.92C2.86 7.41 2.95 7.13 3.02 6.95C3.11 6.7 3.22 6.53 3.4 6.35C3.58 6.16 3.75 6.05 3.99 5.96C4.17 5.88 4.44 5.8 4.93 5.77C5.41 5.75 5.59 5.75 6.54 5.75L6.54 5.75ZM7 7.35C5.55 7.35 4.38 8.55 4.38 10.04C4.38 11.52 5.55 12.72 7 12.72C8.45 12.72 9.62 11.52 9.62 10.04C9.62 8.55 8.45 7.35 7 7.35ZM7 8.29C7.94 8.29 8.7 9.07 8.7 10.04C8.7 11 7.94 11.78 7 11.78C6.06 11.78 5.3 11 5.3 10.04C5.3 9.07 6.06 8.29 7 8.29Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+                    <path id="Vector" d="M5.63 4.61Q5.32 4.61 4.88 4.64L4.88 4.64Q4.14 4.67 3.58 4.89Q3.3 5 3.06 5.16Q2.81 5.33 2.61 5.54Q2.44 5.71 2.31 5.89Q2.1 6.19 1.97 6.54Q1.76 7.11 1.72 7.87Q1.7 8.32 1.7 8.63Q1.69 9.03 1.69 10.04Q1.69 11.05 1.7 11.44Q1.7 11.75 1.72 12.2Q1.76 12.97 1.97 13.54Q2.1 13.88 2.31 14.17Q2.44 14.36 2.6 14.53Q2.82 14.75 3.07 14.92Q3.31 15.07 3.58 15.18Q4.14 15.4 4.88 15.44Q5.32 15.46 5.63 15.46Q6.01 15.47 7 15.47Q7.99 15.47 8.37 15.46Q8.67 15.46 9.11 15.44Q9.86 15.4 10.42 15.18Q10.68 15.08 10.91 14.93Q11.17 14.76 11.39 14.53Q11.55 14.37 11.68 14.18Q11.89 13.89 12.02 13.54Q12.24 12.97 12.27 12.2Q12.29 11.75 12.3 11.44Q12.3 11.05 12.3 10.04Q12.3 9.02 12.3 8.63Q12.29 8.32 12.27 7.87Q12.24 7.11 12.02 6.54Q11.89 6.19 11.68 5.89Q11.55 5.7 11.39 5.54Q11.17 5.32 10.91 5.15Q10.68 5 10.42 4.89Q9.86 4.67 9.11 4.64Q8.67 4.61 8.37 4.61Q7.99 4.6 7 4.6L7 4.6Q6.01 4.6 5.63 4.61ZM7 4.8C5.61 4.8 5.44 4.81 4.89 4.84C4.35 4.86 3.98 4.95 3.65 5.08C3.32 5.21 3.03 5.39 2.75 5.68C2.46 5.97 2.29 6.26 2.16 6.61C2.03 6.94 1.95 7.32 1.92 7.88C1.9 8.44 1.89 8.62 1.89 10.04C1.89 11.46 1.9 11.64 1.92 12.19C1.95 12.75 2.03 13.13 2.16 13.46C2.29 13.81 2.46 14.1 2.75 14.39C3.03 14.68 3.32 14.86 3.65 15C3.98 15.12 4.35 15.21 4.89 15.24C5.44 15.26 5.61 15.27 7 15.27C8.38 15.27 8.56 15.26 9.1 15.24C9.65 15.21 10.02 15.12 10.34 15C10.68 14.86 10.96 14.68 11.25 14.39C11.53 14.1 11.7 13.81 11.84 13.46C11.96 13.13 12.05 12.75 12.07 12.19C12.1 11.64 12.1 11.46 12.1 10.04C12.1 8.62 12.1 8.44 12.07 7.88C12.05 7.32 11.96 6.94 11.84 6.61C11.7 6.26 11.53 5.97 11.25 5.68C10.96 5.39 10.68 5.21 10.34 5.08C10.02 4.95 9.65 4.86 9.1 4.84C8.56 4.81 8.38 4.8 7 4.8L7 4.8ZM6.74 5.75C6.67 5.75 6.6 5.75 6.54 5.75L6.54 5.75C6.47 5.75 6.4 5.75 6.34 5.75C5.56 5.75 5.37 5.75 4.93 5.77C4.44 5.8 4.17 5.88 3.99 5.96C3.75 6.05 3.58 6.16 3.4 6.35C3.22 6.53 3.11 6.7 3.02 6.95C2.95 7.13 2.86 7.41 2.84 7.92C2.82 8.47 2.81 8.64 2.81 10.03C2.81 11.43 2.82 11.6 2.84 12.15C2.86 12.66 2.95 12.94 3.02 13.12C3.11 13.37 3.22 13.54 3.4 13.72C3.58 13.91 3.75 14.02 3.99 14.11C4.17 14.19 4.44 14.27 4.93 14.29C5.47 14.32 5.63 14.32 7 14.32C8.36 14.32 8.52 14.32 9.06 14.29C9.56 14.27 9.83 14.19 10.01 14.11C10.25 14.02 10.42 13.91 10.6 13.72C10.77 13.54 10.89 13.37 10.98 13.12C11.05 12.94 11.13 12.66 11.15 12.15C11.18 11.6 11.18 11.43 11.18 10.04C11.18 8.64 11.18 8.47 11.15 7.92C11.13 7.41 11.05 7.13 10.98 6.95C10.89 6.71 10.77 6.53 10.6 6.35C10.42 6.17 10.25 6.05 10.01 5.96C9.83 5.89 9.56 5.8 9.06 5.78C8.52 5.75 8.36 5.75 7 5.75C6.94 5.75 6.88 5.75 6.83 5.75C6.8 5.75 6.77 5.75 6.74 5.75ZM6.34 5.95Q5.82 5.95 5.56 5.95Q5.32 5.96 4.94 5.97Q4.41 6 4.06 6.14Q3.9 6.2 3.77 6.3Q3.65 6.38 3.54 6.49Q3.46 6.57 3.39 6.67Q3.28 6.83 3.2 7.02Q3.07 7.39 3.04 7.93Q3.02 8.36 3.02 8.66Q3.01 9.03 3.01 10.03Q3.01 11.04 3.02 11.41Q3.02 11.71 3.04 12.14Q3.06 12.68 3.2 13.05Q3.28 13.24 3.39 13.4Q3.46 13.5 3.54 13.58Q3.65 13.69 3.77 13.78Q3.91 13.87 4.06 13.93Q4.42 14.07 4.94 14.09Q5.37 14.11 5.66 14.12Q6.02 14.12 7 14.12Q7.97 14.12 8.34 14.12Q8.63 14.11 9.05 14.09Q9.58 14.07 9.94 13.93Q10.09 13.86 10.21 13.78Q10.33 13.71 10.45 13.58Q10.54 13.49 10.61 13.39Q10.72 13.23 10.79 13.05Q10.93 12.68 10.95 12.14Q10.97 11.71 10.98 11.41Q10.98 11.04 10.98 10.04Q10.98 9.03 10.98 8.66Q10.97 8.37 10.95 7.93Q10.93 7.39 10.79 7.02Q10.72 6.82 10.59 6.66Q10.53 6.57 10.45 6.49Q10.33 6.37 10.21 6.29Q10.09 6.21 9.94 6.14Q9.58 6 9.05 5.98Q8.63 5.96 8.34 5.95Q7.98 5.95 7 5.95L6.34 5.95L6.34 5.95ZM4.25 9.38Q4.18 9.7 4.18 10.04Q4.18 10.37 4.25 10.69Q4.3 10.93 4.4 11.16Q4.51 11.43 4.67 11.67Q4.82 11.89 5 12.08Q5.23 12.31 5.49 12.48Q5.69 12.6 5.9 12.7Q6.15 12.8 6.41 12.86Q6.7 12.92 7 12.92Q7.3 12.92 7.59 12.86Q7.85 12.8 8.1 12.7Q8.31 12.6 8.5 12.48Q8.77 12.31 8.99 12.08Q9.18 11.89 9.32 11.67Q9.49 11.43 9.6 11.16Q9.69 10.93 9.75 10.7Q9.82 10.37 9.82 10.04Q9.82 9.7 9.75 9.38Q9.69 9.14 9.6 8.91Q9.49 8.64 9.32 8.4Q9.18 8.19 8.99 8Q8.77 7.76 8.5 7.59Q8.31 7.47 8.1 7.38Q7.85 7.27 7.59 7.21Q7.3 7.15 7 7.15Q6.7 7.15 6.41 7.21Q6.15 7.27 5.9 7.38Q5.69 7.47 5.49 7.59Q5.23 7.76 5 8Q4.82 8.19 4.67 8.4Q4.51 8.64 4.4 8.91Q4.3 9.14 4.25 9.38ZM7 7.35C5.55 7.35 4.38 8.55 4.38 10.04C4.38 11.52 5.55 12.72 7 12.72C8.45 12.72 9.62 11.52 9.62 10.04C9.62 8.55 8.45 7.35 7 7.35ZM7 8.29C7.94 8.29 8.7 9.07 8.7 10.04C8.7 11 7.94 11.78 7 11.78C6.06 11.78 5.3 11 5.3 10.04C5.3 9.07 6.06 8.29 7 8.29ZM8.46 9.67Q8.5 9.85 8.5 10.04Q8.5 10.22 8.46 10.4Q8.43 10.52 8.38 10.64Q8.32 10.79 8.23 10.92Q8.16 11.03 8.06 11.13Q7.93 11.26 7.79 11.35Q7.69 11.41 7.58 11.46Q7.45 11.52 7.31 11.55Q7.16 11.58 7 11.58Q6.84 11.58 6.68 11.55Q6.54 11.52 6.41 11.46Q6.31 11.41 6.21 11.35Q6.06 11.26 5.94 11.13Q5.84 11.03 5.76 10.92Q5.68 10.79 5.61 10.64Q5.57 10.52 5.54 10.4Q5.5 10.22 5.5 10.04Q5.5 9.85 5.54 9.67Q5.57 9.55 5.61 9.43Q5.68 9.29 5.76 9.16Q5.84 9.04 5.94 8.94Q6.06 8.82 6.21 8.72Q6.31 8.66 6.41 8.61Q6.54 8.56 6.68 8.53Q6.84 8.49 7 8.49Q7.16 8.49 7.31 8.53Q7.45 8.56 7.58 8.61Q7.69 8.66 7.79 8.72Q7.93 8.82 8.06 8.94Q8.16 9.04 8.23 9.16Q8.32 9.29 8.38 9.43Q8.43 9.55 8.46 9.67Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                </svg></a>
+            </div>
+            
+        </div>
+        
+        
+        
+
+    </footer>
+        
+    <script src="catalog_buttons.js"></script>
+</body>
+</html>

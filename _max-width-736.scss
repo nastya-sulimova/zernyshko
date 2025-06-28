@@ -1,0 +1,108 @@
+@media(max-width: 736px){
+    .center{
+        padding-left: calc(50% - 200px);
+        padding-right: calc(50% - 200px);
+    }
+    .center_padding{
+        padding-left: calc(50% - 200px);
+    }
+    .header{
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        &__logo{
+            display: none;
+      }
+    }
+    .menu{
+        gap: 59px;
+    }
+    .button__header{
+        display: none;
+    }
+
+    .description__heading{
+        font-size: 32px;
+        width: 291px;
+    }
+    .description__subtitle{
+        font-size: 16px;
+        width: 291px;
+    }
+    .description__text{
+        width: 250px;
+    }
+    .description__button{
+        margin-bottom: 90px;
+        width: max-content;
+    }
+    .pictures{
+        opacity: 0.3;
+    }
+
+    .about__heading,
+    .catalog__heading,
+    .reviews__heading,
+    .contacts__heading{
+        font-size: 32px;
+        padding-top: 40px;
+        padding-bottom: 34px;
+  }
+  .break{
+    display: none;
+  }
+   .paragraph{
+    background: linear-gradient(to bottom, transparent, transparent 5%, white 5%, white);
+   }
+   .paragraph__text{
+        padding-bottom: 20px;
+   }
+   .articles{
+    padding-bottom: 41px;
+   }
+
+
+   .catalog__button{
+    font-size: 12px;
+    padding: 11px 20.5px;
+   }
+   .product-card{
+    grid-column: span 6;
+   }
+
+   .user-review{
+    grid-column: span 12;
+   }
+
+   .coordinates{
+        gap: 15px;
+   }
+   .coordinates__contacts-booking{
+        gap: 0;
+        flex-direction: column;
+   }
+   .coordinates__contacts{
+        padding-bottom: 20px;
+   }
+
+
+   .footer{
+    gap: 0;
+   }
+   .footer-logo__logo{
+        display: none;
+   }
+   .footer-logo__rights{
+    font-size: 12px;
+   }
+   .footer__menu{
+        gap: 15px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+   }
+   .menu__gap{
+        gap: 32px;
+   }
+
+
+}

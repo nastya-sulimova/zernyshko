@@ -1,0 +1,169 @@
+@media(max-width: 1220px){
+    .center{
+        padding-left: calc(50% - 350px);
+        padding-right: calc(50% - 350px);
+    }
+    .center_padding{
+      padding-left: calc(50% - 350px);
+    }
+    .header{
+        justify-content: center;
+        &__logo{
+            margin-right: 17px;
+            margin-top: 30.5px;
+            margin-bottom: 30.5px;
+            transform: scale(0.8);
+      }
+    }
+    .menu{
+        gap: 30px; 
+  
+        &__text{
+          font-size: 14px;
+          width: max-content;
+        }
+    }
+    
+    .button__header{
+        padding: 12px 30px;
+        font-size: 14px;
+    }
+  
+
+  .description{
+    padding-top: 102px;
+    padding-right: 260px;
+  }
+  .description__heading{
+      font-size: 40px;
+  }
+  .description__subtitle{
+      font-size: 20px;
+  }
+  .description__paragraph{
+      font-size: 14px;
+  }
+  .description__button{
+    margin-bottom: 170px;
+}
+  .description__link{
+      font-size: 14px;
+      padding: 14px 86.5px;
+  }
+  
+  .table{
+    top: -78.3px;
+    right: -564px;
+    transform: scale(0.7);
+  }
+  .cup-of-coffee{
+    top: -8.55px;
+    right: 35px;
+      transform: scale(0.7);
+  }
+  .cup-of-coffee_hover:hover{
+    transform: scale(0.7) rotate(-10.44deg);
+}
+  
+  .coffee-grains{
+    right: -40px;
+    top: 65.85px;
+    transform: scale(0.7);
+  }
+  .biscuit{
+    right: 165.34px;
+    top: 276.57px;
+    transform: scale(0.7);
+
+  }
+  .biscuit_hover:hover{
+      transform: scale(0.7) rotate(-18.37deg);
+  }
+  .cinnabon{
+    right: -155px;
+    top: 149.92px;
+    transform: scale(0.7);
+
+  }
+  .cinnabon_hover:hover{
+      transform: scale(0.7) rotate(-16.36deg);
+  }
+  
+  
+  .about__heading,
+  .catalog__heading,
+  .reviews__heading,
+  .contacts__heading{
+      font-size: 40px;
+        padding-top: 54.5px;
+        padding-bottom: 40.5px;
+  }
+  .articles{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 55px;
+    flex-direction: column;
+  }
+.paragraph__img{
+    width: 250px;
+    height: 250px;
+}
+  .paragraph__text{
+    height: 250px;
+    width: 459px;
+  }
+
+  
+  .catalog__button{
+      font-size: 13px;
+  }
+  .catalog__box{
+    gap: 28px;
+    padding-bottom: 51px;
+}
+  .product-card{
+      grid-column: span 4;
+  }
+  
+  
+  .reviews__box{
+      gap: 28px;
+      padding-bottom: 53px;
+  }
+  .user-review{
+      gap: 18px;
+      grid-column: span 6;
+  }
+  
+  
+  .coordinates{
+    display: flex;
+    flex-direction: column;
+      gap: 10px;
+      padding-bottom: 51px;
+  }
+  .coordinates__contacts-booking{
+    display: flex;
+    gap: 17px;
+  }
+  .coordinates__contacts{
+    padding-bottom: 165px;
+  }
+  .coordinates__booking{
+    width: -webkit-fill-available;
+  }
+
+  
+  
+  .footer{
+        gap: 172px;
+        justify-content: center;
+        align-items: center;
+  }
+  .footer-logo{
+    transform: scale(0.8);
+  }
+  .menu__text_font{
+      font-size: 13px;
+  }
+}

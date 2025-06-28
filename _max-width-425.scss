@@ -1,0 +1,32 @@
+@media(max-width: 425px){
+    .center{
+        padding-left: calc(50% - 150px);
+        padding-right: calc(50% - 150px);
+    }
+    .menu{
+        gap: 25px;
+    }
+
+    .catalog__headingChoice{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .catalog__heading{
+        padding-bottom: 0;
+    }
+    .catalog__box{
+        padding-top: 15px;
+        gap: 15px;
+    }
+    .reviews__box{
+        gap: 15px;
+    }
+
+    .menu__gap{
+        gap: 5px;
+    }
+    .menu__text_font{
+        font-size: 10px;
+    }
+
+}
