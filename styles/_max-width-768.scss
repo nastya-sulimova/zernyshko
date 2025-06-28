@@ -1,0 +1,129 @@
+@media(max-width: 768px){
+    .menu{
+        &__text{
+          font-size: 13px;
+        }
+    }
+    .button__header{
+        font-size: 13px;
+    }
+
+
+  .description__heading{
+      font-size: 34px;
+  }
+  .description__subtitle{
+      font-size: 17px;
+  }
+  .description__paragraph{
+      font-size: 13px;
+  }
+  .description__button{
+    margin-bottom: 115px;
+}
+  .description__link{
+      font-size: 13px;
+      padding: 13px 75.5px;
+  }
+  
+  .table{
+   top: -116.3px;
+    right: -602px;
+    transform: scale(0.6);
+  }
+  .cup-of-coffee{
+    top: -18.55px;
+    right: -60px;
+    transform: scale(0.6);
+  }
+  .cup-of-coffee_hover:hover{
+    transform: scale(0.6) rotate(-10.44deg);
+}
+  
+  .coffee-grains{
+    right: -74px;
+    top: 90.85px;
+    transform: scale(0.6);
+  }
+  .biscuit{
+    right: 80.34px;
+        top: 228.57px;
+        transform: scale(0.56);
+  }
+  .biscuit_hover:hover{
+      transform: scale(0.56) rotate(-18.37deg);
+  }
+  .cinnabon{
+    right: -183px;
+    top: 131.92px;
+    transform: scale(0.6);
+
+  }
+  .cinnabon_hover:hover{
+      transform: scale(0.6) rotate(-16.36deg);
+  }
+
+  .about__heading,
+  .catalog__heading,
+  .reviews__heading,
+  .contacts__heading{
+      font-size: 37px;
+  }
+  .paragraph__heading{
+    font-size: 23px;
+  }
+  .paragraph__description,
+  .catalog__button,
+  .product-card__good,
+  .product-card__quantity{
+    font-size: 13px;
+  }
+.product-card__price{
+    font-size: 22px;
+}
+
+.catalog__box{
+    gap: 26px;
+    padding-bottom: 41px;
+}
+.user-review__text{
+    font-size: 14px;
+}
+.reviews__box{
+    gap: 26px;
+    padding-bottom: 43px;
+}
+
+.coordinates__title{
+    font-size: 22px;
+}
+.coordinates__links,
+.inputs__text,
+.inputs__text_placeholder,
+.coordinates__button{
+    font-size: 13px;
+}
+.paragraph__img{
+    width: 205px;
+}
+.paragraph__text{
+    height: fit-content;
+    width: fit-content;
+}
+.articles{
+    gap: 18px;
+}
+.paragraph{
+    flex-direction: column;
+}
+.paragraph__img{
+    width: auto;
+    height: auto;
+}
+
+
+
+  
+}
+
+
